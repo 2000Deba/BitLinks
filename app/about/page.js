@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Link2, MousePointerClick, Activity, Lock, Zap, Sparkles, Share2, Shield, ArrowUpRight } from "lucide-react";
 
-// ✅ Animated Counter with Auto-Format (K / M)
+// Animated Counter with Auto-Format (K / M)
 function AnimatedCounter({ value, suffix = "", isPercent = false, duration = 5000 }) {
     const [displayValue, setDisplayValue] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
@@ -34,10 +34,8 @@ function AnimatedCounter({ value, suffix = "", isPercent = false, duration = 500
     }, [value, duration]);
 
     const formatValue = (num) => {
-        // যদি percent হয়
         if (isPercent) return num.toFixed(2) + "%";
 
-        // যদি animation শেষ হয়, তখন K+/M+ ফরম্যাট
         if (isFinished) {
             if (num >= 1_000_000) {
                 return (num / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M+";
@@ -47,7 +45,6 @@ function AnimatedCounter({ value, suffix = "", isPercent = false, duration = 500
             }
         }
 
-        // animation চলাকালে normal সংখ্যা দেখাবে
         return Math.floor(num).toLocaleString() + suffix;
     };
 
@@ -216,7 +213,7 @@ export default function AboutPage() {
                         ))}
                     </motion.ul>
 
-                    {/* 🚀 Stats Section with Animated Counter & Glowing Effect */}
+                    {/* Stats Section with Animated Counter & Glowing Effect */}
                     <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}

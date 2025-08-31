@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { Copy, Check, Trash2, Link2 as LinkIcon, Loader2, AlertCircle, } from "lucide-react";
-import { allowedCharsRegex } from "@/utils/validators"; // ✅ Import regex
+import { allowedCharsRegex } from "@/utils/validators"; // Import regex
 
 // --- tiny helpers ---
 const isValidUrl = (val = "") => {
@@ -52,7 +52,7 @@ function Toast({ toast, onClose }) {
 export default function ShortenPage() {
     const [url, setUrl] = useState("");
     const [alias, setAlias] = useState("");
-    const [aliasError, setAliasError] = useState(""); // ✅ Added alias error state
+    const [aliasError, setAliasError] = useState(""); // Added alias error state
     const [results, setResults] = useState([]);
     const [loading, setLoading] = useState(false);
     const [toast, setToast] = useState(null);
@@ -76,7 +76,7 @@ export default function ShortenPage() {
     // derived states
     const canSubmit = isValidUrl(url) && !loading && (alias === "" || allowedCharsRegex.test(alias));
 
-    // Real-time alias validation ✅
+    // Real-time alias validation
     const handleAliasChange = (e) => {
         const value = e.target.value;
         setAlias(value);
@@ -141,7 +141,6 @@ export default function ShortenPage() {
     // Delete a single short link
     const deleteLink = async (shortUrl) => {
         try {
-            // shortUrl থেকে alias আলাদা করতে হবে, কারণ DB তে alias = shortCode
             const alias = shortUrl.split("/").pop();
 
             const res = await fetch(`/api/shorten?alias=${alias}`, { method: "DELETE" });  // Delete from Database
@@ -249,7 +248,6 @@ export default function ShortenPage() {
                             placeholder="My-Custom_Alias;123"
                             value={alias}
                             onChange={handleAliasChange} />
-                        {/* onChange={(e) => setAlias(e.target.value)}  */}
                         {aliasError ? (
                             <div className="mt-2 flex items-center gap-2 text-sm text-red-600">
                                 <AlertCircle className="w-4 h-4" />
