@@ -259,7 +259,7 @@ export default function ShortenPage() {
                             </div>
                         ) : (
                             <div className="mt-1 text-xs text-gray-800">
-                                You can use letters, numbers, dash (-), underscore (_), and at (@).
+                                You can use letters, numbers, dash (-), underscore (_), and at (@). Only dash(-), underscore(_) and at (@) are not allowed.
                             </div>
                         )}
                     </div>

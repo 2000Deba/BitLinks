@@ -58,7 +58,7 @@ export async function POST(req) {
         const headers = req.headers;
         const site = process.env.NEXT_PUBLIC_SITE_URL || `${headers.get("xforwarded-proto") || "http"}://${headers.get("host")}`;
         const shortUrl = `${site.replace(/\/$/, "")}/${alias}`;
-        return NextResponse.json({ shortUrl, code: alias });
+        return NextResponse.json({ shortUrl, originalUrl:url, alias });
     } catch (err) {
         // zod validation error or unexpected
         const message = err?.issues?.[0]?.message || err.message || "Invalid Request";

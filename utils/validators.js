@@ -23,7 +23,7 @@ export const shortenSchema = z.object({
     .max(50, { message: "Alias can't be longer than 50 characters" })
     .regex(allowedCharsRegex, {
       message:
-        "Alias can only contain letters, numbers, dash (-), underscore (_), dot (.), and at (@)",
+        "Alias can only contain letters, numbers, dash (-), underscore (_), and at (@)",
     })
     .optional()
     .or(z.literal("")) // Allow empty alias if not provided
