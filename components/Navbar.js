@@ -44,8 +44,9 @@ export default function Navbar() {
         <header className="sticky top-0 z-50 backdrop-blur-lg bg-white/70 dark:bg-neutral-900/70 shadow-md supports-[backdrop-filter]:bg-white/50">
             <div className="container mx-auto flex h-16 items-center justify-between px-6">
                 {/* Logo */}
-                <Link href="/" className="text-2xl font-bold tracking-tight select-none">
-                    <span className="bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-500 bg-clip-text text-transparent">BitLinks</span>
+                <Link href="/" className="text-2xl font-bold flex items-center tracking-tight select-none">
+                    <img className="w-8 h-8" src="/bitlinks.png" alt="" />
+                    <span className="bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-500 bg-clip-text text-transparent ml-2">BitLinks</span>
                 </Link>
 
                 {/* Desktop Nav */}

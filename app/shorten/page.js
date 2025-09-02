@@ -312,9 +312,10 @@ export default function ShortenPage() {
                                             className="inline-flex items-center gap-2 underline underline-offset-4 decoration-2 text-indigo-600 hover:text-indigo-800 hover:decoration-indigo-400 transition break-all"
                                             href={item.shortUrl}
                                             target="_blank"
-                                            rel="noreferrer">
+                                            rel="noreferrer"
+                                            prefetch={false}>
                                             <LinkIcon className="w-4 h-4 shrink-0" />
-                                            <span className="truncate">{item.shortUrl}</span>
+                                            <span className="flex flex-wrap">{item.shortUrl}</span>
                                         </Link>
                                         <p className="mt-1 text-xs text-gray-500 break-all">
                                             {item.originalUrl}
