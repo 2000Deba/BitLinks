@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import FeatureCard from "@/components/FeatureCard";
 import Testimonial from "@/components/Testimonial";
+import TypedText from "@/components/TypedText";
 
 export default function HomePage() {
     return (
@@ -24,10 +25,13 @@ export default function HomePage() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-cyan-500 to-pink-500 animate-gradient">your links</span>
                 </h1>
 
+                <p className="text-3xl font-bold m-6"><span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-700 to-sky-700">The Best URL Shortener in the Market</span></p>
+
                 <p className="mt-6 text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-                    Lightweight, privacy-friendly, and no login required. Create clean,
-                    memorable links in just seconds.
+                    We're the most straightforward URL shortener on the web. Lightweight, privacy-friendly, and no login required as we prioritize your privacy by not tracking your activities or requiring login details. Create clean, memorable links in just seconds.
                 </p>
+
+                <TypedText />
 
                 <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
                     {/* Try Now Button */}
