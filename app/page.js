@@ -28,7 +28,7 @@ export default function HomePage() {
                 <p className="text-3xl font-bold m-6"><span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-700 to-sky-700">The Best URL Shortener in the Market</span></p>
 
                 <p className="mt-6 text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-                    We're the most straightforward URL shortener on the web. Lightweight, privacy-friendly, and no login required as we prioritize your privacy by not tracking your activities or requiring login details. Create clean, memorable links in just seconds.
+                    We&apos;re the most straightforward URL shortener on the web. Lightweight, privacy-friendly, and no login required as we prioritize your privacy by not tracking your activities or requiring login details. Create clean, memorable links in just seconds.
                 </p>
 
                 <TypedText />
@@ -45,7 +45,7 @@ export default function HomePage() {
                         hover:scale-110 hover:rotate-[2deg]
                         hover:shadow-[8px_8px_25px_rgba(99,102,241,0.5)]">
                         Try Now
-                        <FiArrowUpRight className="text-2xl" /> {/* সুন্দর Arrow Icon */}
+                        <FiArrowUpRight className="text-2xl" />
                     </Link>
 
                     {/* GitHub Button */}
