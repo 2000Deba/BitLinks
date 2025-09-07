@@ -75,12 +75,10 @@ NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ## 📸 Screenshots
 
 ### Home Page
-![BitLinks Home](https://via.placeholder.com/900x450.png?text=BitLinks+Homepage)
+<img src="./public/home.png" alt="Homepage" width="800" />
 
 ### Shorten URL Page
-![Shorten URL](https://via.placeholder.com/900x450.png?text=BitLinks+Shorten+URL)
-
-*(You can replace these placeholders with your actual project screenshots)*
+<img src="./public/shorten.jpg" alt="Shortenpage" width="800" />
 
 ---
 
