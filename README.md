@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/2000Deba/bitlinks?style=social)
 ![Issues](https://img.shields.io/github/issues/2000Deba/bitlinks)
 ![Pull Requests](https://img.shields.io/github/issues-pr/2000Deba/bitlinks)
-![License](https://img.shields.io/github/license/2000Deba/bitlinks)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Vercel Deploy](https://vercelbadge.vercel.app/api/2000Deba/bitlinks)
 
 ---
