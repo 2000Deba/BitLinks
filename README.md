@@ -5,7 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/2000Deba/bitlinks)
 ![Pull Requests](https://img.shields.io/github/issues-pr/2000Deba/bitlinks)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Vercel Deploy](https://vercelbadge.vercel.app/api/2000Deba/bitlinks)
+[![Vercel Status](https://img.shields.io/badge/deployed%20on-vercel-000000?logo=vercel&logoColor=white)](https://bitlinks-jet.vercel.app/)
 
 ---
 
@@ -17,11 +17,11 @@
 ---
 
 ## ✨ Features
-- 🔗 Shorten long URLs instantly
-- 🧩 Custom alias support
-- 📊 Click tracking (optional future enhancement)
-- 🗑️ Delete shortened links anytime
-- 🎨 Fully responsive and modern UI
+- 🔗 Instantly shorten long and complex URLs into clean, shareable links.
+- 🧩 Create **custom aliases** for your shortened URLs.
+- 📊 Track total clicks and manage your URLs effectively. *(coming soon!)*
+- 🗑️ Delete shortened links whenever you want.
+- 🎨 Fully **responsive** and **modern UI** built with Tailwind CSS.
 
 ---
 
@@ -38,8 +38,8 @@
 
 Clone the repository:
 ```bash
-git clone https://github.com/2000Deba/bitlinks.git
-cd bitlinks
+git clone https://github.com/2000Deba/BitLinks.git
+cd BitLinks
 ```
 
 Install dependencies:
