@@ -79,9 +79,10 @@ export default function Footer() {
 
             {/* Bottom - Copyright */}
             <div className="bg-black/20 backdrop-blur-sm mt-4">
-                <p className="text-sm sm:text-lg text-gray-100 text-center py-3 tracking-wide">
+                <p className="text-sm sm:text-lg text-gray-100 text-center pt-3 tracking-wide">
                     Copyright &copy; {year} <span className="font-semibold">BitLinks</span>. All rights reserved.
                 </p>
+                <p className="text-sm sm:text-lg text-gray-100 text-center pb-3 tracking-wide">Created with ❤️ by Deba</p>
             </div>
         </footer>
     );
