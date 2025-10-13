@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
       >
         <Navbar />
-        {/* এখানে margin-top যোগ করলাম যাতে sticky navbar-এর নিচে content চাপা না পড়ে */}
+        {/* Added margin-top here so that the content doesn't get buried under the sticky navbar. */}
         <main className="container mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
           {children}
         </main>

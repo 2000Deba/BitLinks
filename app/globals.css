@@ -13,7 +13,7 @@ body {
 /* Container – Fully Responsive */
 .container {
     @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-    /* এখন mobile, tablet এবং desktop এ proper padding থাকবে */
+    /* Now there will be proper padding on mobile, tablet and desktop. */
 }
 
 /* Buttons */

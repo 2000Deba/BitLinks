@@ -12,7 +12,7 @@ export async function GET(req, context) {
         return NextResponse.next();
     }
 
-    // Optional: Sanitize the shortCode if needed (if alias contains special characters)
+    // Sanitize the shortCode if needed (if alias contains special characters)
     shortCode = sanitizeAlias(shortCode);
         try {
         // MongoDB connect
