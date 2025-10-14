@@ -2,16 +2,17 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X, Home, Info, Link2, Phone, LogIn } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // Reusable NavLink
-function NavLink({ href, label, icon, currentPath }) {
+function NavLink({ href, label, icon, currentPath, onClick }) {
     const active = currentPath === href;
     return (
         <Link
             href={href}
+            onClick={onClick}
             className={`relative group flex items-center gap-2 px-3 py-2 rounded-lg transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-indigo-400/50 ${active
                 ? "text-indigo-600 dark:text-indigo-400"
                 : "text-gray-700 dark:text-gray-300 hover:text-indigo-500"
@@ -39,6 +40,9 @@ export default function Navbar() {
 
     const toggle = () => setOpen((v) => !v);
     const close = () => setOpen(false);
+    useEffect(() => {
+        close()
+    }, [pathname])
 
     return (
         <header className="sticky top-0 z-50 backdrop-blur-lg bg-white/70 dark:bg-neutral-900/70 shadow-md supports-[backdrop-filter]:bg-white/50">
@@ -100,10 +104,12 @@ export default function Navbar() {
                                     href={l.href}
                                     label={l.label}
                                     icon={l.icon}
-                                    currentPath={pathname} />
+                                    currentPath={pathname}
+                                    onClick={close} />
                             ))}
                             <Link
                                 href="/shorten"
+                                onClick={close}
                                 className="mt-2 inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-white shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 transition focus:outline-none focus:ring-2 focus:ring-indigo-400/50">
                                 <LogIn size={16} />
                                 Try Now
