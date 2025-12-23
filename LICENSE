@@ -1,21 +1,41 @@
-MIT License
+SOURCE-AVAILABLE LICENSE
 
 Copyright (c) 2025 Debasish Seal
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted to any person obtaining a copy of this software
+and associated documentation files (the "Software") to view, study, and
+contribute to the Software for educational and learning purposes only.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This Software is NOT open-source.
+
+The following actions are strictly prohibited without explicit prior
+written permission from the copyright holder:
+
+1. Deployment of the Software (or any modified version) to any public or
+   private server, cloud platform, or app store.
+2. Redistribution, resale, sublicensing, or commercial use of the Software.
+3. Rebranding, renaming, or claiming the Software as your own work.
+4. Publishing derived works that are functionally or visually similar.
+5. Using the Software in production, freelance, client, or enterprise projects.
+
+Forking is allowed only as a platform feature of GitHub.
+Any forked copy remains subject to the same license terms and restrictions.
+
+Contributions are welcome, but by submitting a contribution, you agree that
+the contribution may be used, modified, or rejected at the discretion of
+the copyright holder.
+
+By submitting a contribution, you grant the copyright holder
+a perpetual, irrevocable right to use, modify, and distribute
+the contribution under this license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+In no event shall the author or copyright holders be liable for any claim,
+damages or other liability, whether in an action of contract, tort or
+otherwise, arising from, out of or in connection with the software.
+
+For permission requests, contact:
+Email: deep2000seal@gmail.com

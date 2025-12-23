@@ -14,8 +14,80 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "BitLinks - Your trusted URL shortener",
-  description: "Fast, simple, privacy-first URL shortener built with Next.js",
+  title: {
+    default: "BitLinks — Privacy-First URL Shortener",
+    template: "%s | BitLinks",
+  },
+
+  description:
+    "BitLinks is a fast, secure, and privacy-first URL shortener built with Next.js and MongoDB. Create clean, shareable links with custom aliases.",
+
+  keywords: [
+    "BitLinks",
+    "URL shortener",
+    "link shortener",
+    "Next.js project",
+    "MongoDB",
+    "custom short links",
+    "privacy first url shortener",
+    "link management tool",
+    "web development project",
+  ],
+
+  authors: [{ name: "Debasish Seal", url: "https://debasishseal.vercel.app" }],
+  creator: "Debasish Seal",
+  publisher: "Debasish Seal",
+
+  metadataBase: new URL("https://bitlinks-jet.vercel.app"),
+
+  alternates: {
+    canonical: "https://bitlinks-jet.vercel.app",
+  },
+
+  openGraph: {
+    title: "BitLinks — Privacy-First URL Shortener",
+    description:
+      "Shorten, manage, and share URLs securely with BitLinks. Built with Next.js and MongoDB.",
+    url: "https://bitlinks-jet.vercel.app",
+    siteName: "BitLinks",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "BitLinks — URL Shortener",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "BitLinks — Privacy-First URL Shortener",
+    description:
+      "Fast, secure, privacy-focused URL shortener built with Next.js.",
+    images: ["/og-image.png"],
+    creator: '@ShilDebasish',
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
