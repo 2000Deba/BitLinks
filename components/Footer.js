@@ -40,28 +40,28 @@ export default function Footer() {
                 {/* Right Side - Social Icons */}
                 <div className="flex items-center gap-5">
                     <Link
-                        href="https://facebook.com"
+                        href="https://www.facebook.com/share/19h1bGQxvK/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:scale-125 transition-transform duration-300">
                         <FaFacebook size={26} className="hover:text-blue-300" />
                     </Link>
                     <Link
-                        href="https://twitter.com"
+                        href="https://x.com/shildebasish"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:scale-125 transition-transform duration-300">
                         <FaTwitter size={26} className="hover:text-sky-300" />
                     </Link>
                     <Link
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/sildebasish02?igsh=MWN4dmdkZDZvNjYxMg=="
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:scale-125 transition-transform duration-300">
                         <FaInstagram size={26} className="hover:text-pink-300" />
                     </Link>
                     <Link
-                        href="https://linkedin.com"
+                        href="https://in.linkedin.com/in/debasishseal"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:scale-125 transition-transform duration-300">

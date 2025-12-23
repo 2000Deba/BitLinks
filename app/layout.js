@@ -19,8 +19,7 @@ export const metadata = {
     template: "%s | BitLinks",
   },
 
-  description:
-    "BitLinks is a fast, secure, and privacy-first URL shortener built with Next.js and MongoDB. Create clean, shareable links with custom aliases.",
+  description: "BitLinks is a fast, secure, and privacy-first URL shortener built with Next.js and MongoDB. Create clean, shareable links with custom aliases.",
 
   keywords: [
     "BitLinks",
