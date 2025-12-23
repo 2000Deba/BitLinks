@@ -67,7 +67,7 @@ export default function ContactPage() {
                         <div className="flex justify-center gap-5 sm:gap-6">
                             {/* Twitter */}
                             <Link
-                                href="#"
+                                href="https://x.com/shildebasish"
                                 className="w-10 h-10 sm:w-11 sm:h-11 rounded-full flex items-center justify-center text-white shadow-md hover:scale-110 transition-transform duration-300"
                                 style={{ backgroundColor: "#1DA1F2" }} // Twitter Blue
                                 aria-label="Twitter">
@@ -76,7 +76,7 @@ export default function ContactPage() {
 
                             {/* Facebook */}
                             <Link
-                                href="#"
+                                href="https://www.facebook.com/share/19h1bGQxvK/"
                                 className="w-10 h-10 sm:w-11 sm:h-11 rounded-full flex items-center justify-center text-white shadow-md hover:scale-110 transition-transform duration-300"
                                 style={{ backgroundColor: "#1877F2" }} // Facebook Blue
                                 aria-label="Facebook">
@@ -85,7 +85,7 @@ export default function ContactPage() {
 
                             {/* Instagram */}
                             <Link
-                                href="#"
+                                href="https://www.instagram.com/sildebasish02?igsh=MWN4dmdkZDZvNjYxMg=="
                                 className="w-10 h-10 sm:w-11 sm:h-11 rounded-full flex items-center justify-center text-white shadow-md hover:scale-110 transition-transform duration-300"
                                 style={{
                                     background:
